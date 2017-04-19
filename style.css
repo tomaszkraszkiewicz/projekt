@@ -1,0 +1,84 @@
+body, li a {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+.container {
+	display: flex;
+	justify-content: flex-end;
+	background: rgba(184, 172, 177, 0.91);	
+}
+
+.container ul li {
+	display: inline-block;
+	margin-right: 25px;	
+}
+
+.container ul li a {
+	color: white;
+}
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #a79bdc;
+	height: 100vh;
+	color: white;
+}
+
+h1 {
+	border: solid 5px #fff;
+	padding: 15px;
+	box-shadow: 1px 1px 1px 1px #fff;
+}
+	
+.gallery {
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 10px;
+}
+
+.img {
+	margin: 10px;
+}
+
+.flex-container {
+	margin: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+.flex-box {
+	width: 200px;
+	background: #ffa4c2;
+	border: solid 1px #d5878c;
+	margin: 10px;
+}
+
+.flex-footer {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	background: #e9dce2;
+}
+
+.box-2 {
+	flex-grow: ;
+	background: 
+	width: 200px;
+}
+
+[class*="box-"] {
+	background: #e398ad;
+	width: 200px;
+	border: solid 1px #000;
+	
+}
